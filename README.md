@@ -3,4 +3,4 @@
 Web scraping =>BeaitfulSoap, Selenium, Scrapy
 
 # BeatifulSoap 
-Bs kullanarak ama
+BeatifulSoap kullanrak Amazondaki bilgisayar productlarının bilgilerini(Marka,Renk,Ram hafızası,Link) sayfa içi gezinerek gerçekleştiren python kodu. 
