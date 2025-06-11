@@ -9,10 +9,11 @@ url ='https://www.amazon.com.tr/s?k=laptop&__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%
 excel_datas= []
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive'
+# veri giziiliği için sildim.
+    'User-Agent': '',
+    'Accept-Language': '',
+    'Accept-Encoding': '',
+    'Connection': ''
 }
 
 response = requests.get(url, headers=headers)
