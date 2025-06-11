@@ -83,4 +83,4 @@ while True:
 
 df = pd.DataFrame(excel_datas)
 df.to_excel("amazon_laptop_verileri.xlsx", index=False)
-print("\n✅ Veriler Excel dosyasına kaydedildi: amazon_laptop_verileri.xlsx")
+print("\n Veriler Excel dosyasına kaydedildi: amazon_laptop_verileri.xlsx")
