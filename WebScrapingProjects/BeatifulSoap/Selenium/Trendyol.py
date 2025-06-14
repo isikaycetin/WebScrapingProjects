@@ -187,7 +187,7 @@ print(f'{len(products_links)} tane link var.')
 
 #fazla veri olduğu için kaç saniye de çalıştığını merak ettim.
 end_time_2 = time.time()
-total_time_2 = end_time_2 - start_time  # Burada end_time_2 kullanılmalı
+total_time_2 = end_time_2 - start_time  #570 saniye sürdü
 print(f"En toplamda çalışma süresi: {total_time_2:.2f} saniye")
 
 df = pd.DataFrame(excel_datas)
