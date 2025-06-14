@@ -1,7 +1,7 @@
 # !!!! Bu proje yalnızca eğitim ve kişisel öğrenme amacıyla oluşturulmuştur.Herhangi bir ticari amaç güdülmemiştir veya veri saklama amacı taşımaz
 # WebScrapingProjects
 1.BeaitfulSoap - Amazon <br>
-2.Selenium <br> 
+2.Selenium - Yurtlar Burda - **Trendyol** <br> 
 3.Scrapy  <br>
 
 # BeatifulSoap 
