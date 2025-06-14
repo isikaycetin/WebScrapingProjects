@@ -9,8 +9,8 @@ BeatifulSoap kullanrak Amazondaki bilgisayar productlarının bilgilerini(Marka,
 # Selenium 
 <h4> 1.Trendyol </h4>
 Trendyolun ana url'sinden yola çıkarak gerekli reklamları kapatır, çerezleri kabul eder , input kısmına ayakkabı komutunu gönderir ve yeni url'ye gider.Devamında ise marka ve numara seçer(nike,22 numara).
-Sonrasındaysa sayfayı scroll eder.Artık tüm ürünleri ekranda görmüş olduk doğruluk tespiti için scroll sonrası ürün sayısını aldım test için. Şimdi artık ürünlerimizin hepsi hazır scraping işlemi kaldı.Ürünlerin linklerini de bir listeye attım o listeden çektim sayfalara tek tek gittim ve gittiğim sayfadan ürünlerin ismini aldım. Hem o sayfadaki fiyatı hem de rakip satıcıdaki fiyatı ve mağaza adını aldım.Excel dosayasını da ekledim.<br>
-<h7>Ekran Çıktısı</h7> <br><br>
+Sonrasındaysa sayfayı scroll eder.Artık tüm ürünleri ekranda görmüş olduk doğruluk tespiti için scroll sonrası ürün sayısını aldım test için. Şimdi artık ürünlerimizin hepsi hazır scraping işlemi kaldı.Ürünlerin linklerini de bir listeye attım o listeden çektim sayfalara tek tek gittim ve gittiğim sayfadan ürünlerin ismini aldım. Hem o sayfadaki fiyatı hem de rakip satıcıdaki fiyatı ve mağaza adını aldım.Excel dosayasını da ekledim.<br><br>
+<h7>Ekran Çıktısı</h7> <br>
 187 - - - Scroll edildikten sonra toplam ürün sayısı: 187 <br><br>
 -1.Nike Bebek Günlük Ayakkabı DV5458-105 Beyaz--1.999 TL   =>>    https://www.trendyol.com/nike/bebek-gunluk-ayakkabi-dv5458-105-beyaz-p-836891634?boutiqueId=61&merchantId=856203<br>
 Rakip Mağaza Adı:Munesso - Fiyatı:1.999 - Linki:https://www.trendyol.com/sr?mid=381713<br><br>
