@@ -13,7 +13,7 @@ Sonrasındaysa sayfayı scroll eder.Artık tüm ürünleri ekranda görmüş old
 <h7>Ekran Çıktısı</h7> <br><br>
 187 - - - Scroll edildikten sonra toplam ürün sayısı: 187 <br><br>
 -1.Nike Bebek Günlük Ayakkabı DV5458-105 Beyaz--1.999 TL   =>>    https://www.trendyol.com/nike/bebek-gunluk-ayakkabi-dv5458-105-beyaz-p-836891634?boutiqueId=61&merchantId=856203<br>
-Mağaza Adı:Munesso - Fiyatı:1.999 - Linki:https://www.trendyol.com/sr?mid=381713<br><br>
+Rakip Mağaza Adı:Munesso - Fiyatı:1.999 - Linki:https://www.trendyol.com/sr?mid=381713<br><br>
 2.Nike Bebek Günlük Ayakkabı DV5458-104 Beyaz ve 1.999TL ,https://www.trendyol.com/nike/bebek-gunluk-ayakkabi-dv5458-104-beyaz-p-836891545?boutiqueId=61&merchantId=381713 ->için başka satıcı yok<br>
 
 
