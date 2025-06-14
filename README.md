@@ -6,3 +6,5 @@
 
 # BeatifulSoap 
 BeatifulSoap kullanrak Amazondaki bilgisayar productlarının bilgilerini(Marka,Renk,Ram hafızası,Link) sayfa içi ve prduct içinde gezinerek gerçekleştiren python kodu. 
+# Selenium 
+<h1> 1.Trendyol </h1>
