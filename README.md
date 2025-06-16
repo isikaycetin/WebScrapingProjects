@@ -22,5 +22,5 @@ Rakip Mağaza Adı:Munesso - Fiyatı:1.999 - Linki:https://www.trendyol.com/sr?m
 Yurt ararken en çok kullandığım sitelerden biri olmuştu ve bende düşünüp dedimki neden yurtların verilerini çekmeyeyim.Öncelikle klasık bir arama işlemi yapıyoruz gerekli filtreleri seçtik.Tüm elemntleri sayfada görmek için en altta bulunan "daha fazla gör" butonuna click yaptık.Sonra tüm kartları aldım ve her bir kart için döngü(for) oluşturdum.İstedeğim yurtlarda {'Şişli', 'Fatih', 'Kağıthane', 'Beşiktaş'} bu illerdeki yurtlardı o yüzden kendimce böyle bir filtre oluşturdum sadece bu illerdeki yurtların bilgilerini getirsin.Bazılarının ilçesi belli değildi o yüzden bir "," ile if işlemi tanımladım.Sonrada bu ilçedeki yurtları bir listeye attım url ve ilçesiyle birlikte. Devamındaysa listedeki yurtlara get(url) ile sayfalara gittim.Yurt adını, yatak sayısını,öğün sayısını,adresi ve telefon numarasını aldım ve bunları bir excel dosyasına da kaydettim.<br>
 
 # Scrapy
-<h4>- - -  - - </h4>
+<h4>- - - gelecek.... - - </h4>
 
