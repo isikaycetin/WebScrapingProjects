@@ -5,6 +5,7 @@
 3.Scrapy => <br>
 
 # BeatifulSoap 
+<h4>- - -1.Amazon- - - </h4>
 BeatifulSoap kullanrak Amazondaki bilgisayar productlarının bilgilerini(Marka,Renk,Ram hafızası,Link) sayfa içi ve prduct içinde gezinerek gerçekleştiren ve excele kaydeden python kodu. <br>
 # Selenium 
 <h4>- - -1.Trendyol- - - </h4>
