@@ -7,6 +7,8 @@
 # BeatifulSoap 
 <h4>- - -1.Amazon- - - </h4>
 BeatifulSoap kullanrak Amazondaki bilgisayar productlarının bilgilerini(Marka,Renk,Ram hafızası,Link) sayfa içi ve prduct içinde gezinerek gerçekleştiren ve excele kaydeden python kodu. <br>
+Filtrelerin seçili olan bir url'ye istek attım.Sistem beni bot zannettiği için tüm verileri sağlıklı alamıyordum eksik ve yanlış çıkıyordu o yüzden bir header tanımladım beni gerçek bir insan gibi görmesi için.Scraping adında bir fonksiyon tanımladım burada bilgisayarların gerekli bilgilerini scraping ediyordu(Marka,Renk,Ram hafızası,Link).Sonrada while döngüsü ile tüm dış sayfaların gezdim her sayfa da scraping yapması içinde scraping fonksiyonunu çağırdım.Eğer sonraki buton yoksa dur varsa sayfa numarasını arttır.<br>
+
 # Selenium 
 <h4>- - -1.Trendyol- - - </h4>
 Trendyolun ana url'sinden yola çıkarak gerekli reklamları kapatır, çerezleri kabul eder , input kısmına ayakkabı komutunu gönderir ve yeni url'ye gider.Devamında ise marka ve numara seçer(nike,22 numara).
