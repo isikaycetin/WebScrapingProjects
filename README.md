@@ -1,7 +1,7 @@
 # !!!! Bu proje yalnızca eğitim ve kişisel öğrenme amacıyla oluşturulmuştur.Herhangi bir ticari amaç güdülmemiştir veya veri saklama amacı taşımaz
 # WebScrapingProjects
 1.BeaitfulSoap => Amazon <br>
-2.Selenium => Yurtlar Burda -- **Trendyol** <br> 
+2.Selenium => Yurtlar Burda -- **Trendyol** - Akakçe<br> 
 3.Scrapy => <br>
 
 # BeatifulSoap 
@@ -20,6 +20,8 @@ Rakip Mağaza Adı:Munesso - Fiyatı:1.999 - Linki:https://www.trendyol.com/sr?m
 2.Nike Bebek Günlük Ayakkabı DV5458-104 Beyaz ve 1.999TL ,https://www.trendyol.com/nike/bebek-gunluk-ayakkabi-dv5458-104-beyaz-p-836891545?boutiqueId=61&merchantId=381713 ->için başka satıcı yok<br>
 <h4>- - - YurtlarBurda- - - </h4>
 Yurt ararken en çok kullandığım sitelerden biri olmuştu ve bende düşünüp dedimki neden yurtların verilerini çekmeyeyim.Öncelikle klasık bir arama işlemi yapıyoruz gerekli filtreleri seçtik.Tüm elemntleri sayfada görmek için en altta bulunan "daha fazla gör" butonuna click yaptık.Sonra tüm kartları aldım ve her bir kart için döngü(for) oluşturdum.İstedeğim yurtlarda {'Şişli', 'Fatih', 'Kağıthane', 'Beşiktaş'} bu illerdeki yurtlardı o yüzden kendimce böyle bir filtre oluşturdum sadece bu illerdeki yurtların bilgilerini getirsin.Bazılarının ilçesi belli değildi o yüzden bir "," ile if işlemi tanımladım.Sonrada bu ilçedeki yurtları bir listeye attım url ve ilçesiyle birlikte. Devamındaysa listedeki yurtlara get(url) ile sayfalara gittim.Yurt adını, yatak sayısını,öğün sayısını,adresi ve telefon numarasını aldım ve bunları bir excel dosyasına da kaydettim.<br>
+<h4>- - - Akakçe - - </h4>
+Bu web sitesindeki kod trendyoldaki koda benzer ancak daha clean bir kod yazmayı amaçladım daha işlevsel fonksiyonlar kullandım.Alınan datalar ise product adı,fiyatı ve linki => rakip fiyatı ve linki. Önce yine bir url var ve url ye gidiyoruz while döngüsünün içine girip önce her sayfadaki veriyi kazıyoruz sonra diğer sayfalara click ile geçiyoruz.Trendyoldan farklı olarak sayfa döngüsü içine 2 tane fonksiyon ekledim biri productların linklerini listeye ekliyor diğeride o linklere gidip dataları scraping ediyor.En son olarakta kontrol işlemleri için print kullanıyorum ve excel dosyasına kaydediyorum.<br>
 
 # Scrapy
 <h4>- - - gelecek.... - - </h4>
