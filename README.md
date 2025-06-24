@@ -3,6 +3,7 @@
 1.BeaitfulSoap => Amazon <br>
 2.Selenium => Yurtlar Burda -- **Trendyol** - Akakçe<br> 
 3.Scrapy => Ebay <br>
+4.lxml + requests => ---- <br>
 
 # BeatifulSoap 
 <h4>- - - Amazon- - - </h4>
