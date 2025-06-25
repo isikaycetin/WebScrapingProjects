@@ -7,7 +7,13 @@
 5.Hidden Api + requests => eBooks <br>
 
 # Hidden Api-Emulate
+<h4>- - - eBooks- - - </h4>
+Kitapların paginationda 50 sayfasını çeken ve de kitap içine girerek datalarını(name,author,publisher,,date ve price) kaydeden py kodu.<br>
+1.Ebooks.com -> F12 -> Network -> Disable cache -> Ctrl+Shift+P -> Disable Javascript.<br> 
+Bu işlemler yapıldığında sayfadaki hangi datalar dinamik ve statik görmüş oluyoruz.<br>
+Network kısmında tüm requstler gözüküyor eBooks sitesi dinamik olduğu için datalarını hidden api ile scrape etmeliyiz.Öncelikle prodcut datalarını olduğu api isteğini copy as cURL diyoruz.Ardından herhangi bir converter sitesinden cURL -> Python dönüşümünü yaptırıyoruz ve koda ekleliyorz.Öncelikle paginationda gezinmek için ana while döngümüz var ilk 50 sayfa için çok sayfa vardı o yüzden 50'yi uygun gördüm.Api ye istek attım {page_number} parametresi ile bu sayede tüm sayfalarda dönecek.Kodun iç kısmına giricek olursak books'ların datasını parse ettik. Eğer artık book yoksa döngü sonlanır varsa devam eder ve for döngüsüne girer.For döngüsünde ise her kitabın id sini aldık çünkü parametrede id var.Sonrada json dosyasından dataları çektik.En sonda da excel'e kaydedild..
 
+<br>
 
 # Lxml
 <h4>- - - Uspolo- - - </h4>
