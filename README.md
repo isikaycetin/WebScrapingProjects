@@ -4,6 +4,10 @@
 2.Selenium => Yurtlar Burda -- **Trendyol** - Akakçe<br> 
 3.Scrapy => Ebay <br>
 4.lxml + requests => Uspolo <br>
+5.Hidden Api + requests => eBooks <br>
+
+# Hidden Api-Emulate
+
 
 # Lxml
 <h4>- - - Uspolo- - - </h4>
