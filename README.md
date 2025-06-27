@@ -4,7 +4,7 @@
 2.Selenium => Yurtlar Burda -- **Trendyol** - Akakçe<br> 
 3.Scrapy => Ebay <br>
 4.lxml + requests => Uspolo <br>
-5.Hidden Api + requests => eBooks <br>
+5.Hidden Api + requests => eBooks --Trendyol <br>
 
 # Hidden Api-Emulate
 <h4>- - - eBooks- - - </h4>
@@ -14,7 +14,16 @@ Bu işlemler yapıldığında sayfadaki hangi datalar dinamik ve statik görmü�
 Network kısmında tüm requstler gözüküyor eBooks sitesi dinamik olduğu için datalarını hidden api ile scrape etmeliyiz.Öncelikle prodcut datalarını olduğu api isteğini copy as cURL diyoruz.Ardından herhangi bir converter sitesinden cURL -> Python dönüşümünü yaptırıyoruz ve koda ekleliyorz.Öncelikle paginationda gezinmek için ana while döngümüz var ilk 50 sayfa için çok sayfa vardı o yüzden 50'yi uygun gördüm.Api ye istek attım {page_number} parametresi ile bu sayede tüm sayfalarda dönecek.Kodun iç kısmına giricek olursak books'ların datasını parse ettik. Eğer artık book yoksa döngü sonlanır varsa devam eder ve for döngüsüne girer.For döngüsünde ise her kitabın id sini aldık çünkü parametrede id var.Sonrada json dosyasından dataları çektik.En sonda da excel'e kaydedild..
 
 <br>
+<h4>- - - Trendyol - - </h4>
+Trendyoldaki samsung televizyonların name,price,rating,count,url'lerini kaydeden python kodu.<br>
+1.Trendyol -> F12 -> Network -> Disable cache -> Ctrl+Shift+P -> Disable Javascript.<br> 
+Bu işlemler yapıldığında sayfadaki hangi datalar dinamik ve statik görmüş oluyoruz.<br>
+Bu kodun ileri versiyonunu selenium ile yapmıştım çok uzun sürmüştü sitenin kendi api ile yapınca gerçekten zaman tasarrufu sağlıyormuş.Network kısmında infine scroll adında bir api vardı ve api'ın parametresinde pi kısmı vardı bu sayfa sayısıydı bundan faydalanarak sayfayı ürün bulamayana kadar arttırdım yani son sayfaya kadar.Sonra o apini json dosyasından gerekli dataları aldım ve kaydettim.<br> 
+Diğer satıcıların fiyatlarını almayı denedim o kısım statikti lxml kullandım ama bir türlü başaramadım.Önce productların linklerini bir listeye kaydettim ordan da hepsine bir for döngüsüyle request attım sonra lxml ile parse ettim ama olmadı ya çok uzun bekliyordu ya da direk satıcı yok çıktısını veriyordu.
 
+
+
+<br>
 # Lxml
 <h4>- - - Uspolo- - - </h4>
 Lxml kullanarak Uspolo sitesindeki tişörtlerin adını,fiyatını,url'sini excel dosyasına kaydeden python kodu.Öncelikle bir ana urlmiz var ve url içinde page parametresi sayfa sayfa gezinmek için paramktereyi +1 attrıdık eğer artık ürün yoksa yeni sayfa demekki o sayfaf yok aslında dur.scraping_products(products) adındaki methodumuzda her tişörtün linkini alır ana url'ye ekle xpath de sonuç hep liste olarak döner bir tane olsa bile o yüzden [0] kullanmamız lazım.Sonra da name,price ve url xpath ile scrape ettim ve excel'e kaydeder.<br>
