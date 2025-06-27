@@ -1,4 +1,3 @@
-from itertools import count
 from time import sleep
 import requests
 import time
@@ -139,14 +138,48 @@ while True:
             "url": full_url,
         })
     params['pi'] += 1
-
-
-
+    
 print(f"Toplam çekilen ürün sayısı: {total_products}")
 
 df = pd.DataFrame(excel_datas)
 df.to_excel('trendyol.xlsx', index=False)
-print("\n Veriler Excel dosyasına kaydedildi: trendyol.xlsx")
+print("\n Veriler Excel dosyasına kaydedildi: trendyol.xlsx")    
+
+
+#hatalı
+# i =0
+# for product_link in product_links:
+#     response = requests.get(url=product_link,headers=headers, cookies=cookies,timeout=15)
+#     if response.status_code != 200:
+#         print(f"Sayfa  erişim hatası: {response.status_code}")
+#         break
+
+    # i+=1
+    # tree = html.fromstring(response.content)
+    #
+    # other_sellers_div = tree.xpath('//div[@class="pr-omc"]')
+    #
+    # if other_sellers_div:
+    #     other_sellers_items = other_sellers_div[0].xpath('.//div[@class="pr-mc-w"]')
+    #
+    #     if other_sellers_items:
+    #
+    #       for other_seller in other_sellers_items:
+    #           name = other_seller.xpath('.//a[@class="seller-name-text"]/text()')
+    #           price = other_seller.xpath('.//span[@class="prc-dsc"]/text()')
+    #
+    #           seller_name = name[0].strip() if name else "Adı Bilinmiyor"
+    #           seller_price = price[0].strip() if price else "Fiyatı Bilinmiyor"
+    #
+    #           print(f"{i}.{seller_name}-{seller_price}TL- - {product_link}")
+    #
+    #     else:
+    #         other_sellers_items ='İtems satıcı yok'
+    #
+    # else:
+    #     other_sellers_div ='Div başka satıcı yok'
+
+
 
 
 
