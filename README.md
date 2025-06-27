@@ -20,10 +20,8 @@ Trendyoldaki samsung televizyonların name,price,rating,count,url'lerini kaydede
 Bu işlemler yapıldığında sayfadaki hangi datalar dinamik ve statik görmüş oluyoruz.<br>
 Bu kodun ileri versiyonunu selenium ile yapmıştım çok uzun sürmüştü sitenin kendi api ile yapınca gerçekten zaman tasarrufu sağlıyormuş.Network kısmında infine scroll adında bir api vardı ve api'ın parametresinde pi kısmı vardı bu sayfa sayısıydı bundan faydalanarak sayfayı ürün bulamayana kadar arttırdım yani son sayfaya kadar.Sonra o apini json dosyasından gerekli dataları aldım ve kaydettim.<br> 
 Diğer satıcıların fiyatlarını almayı denedim o kısım statikti lxml kullandım ama bir türlü başaramadım.Önce productların linklerini bir listeye kaydettim ordan da hepsine bir for döngüsüyle request attım sonra lxml ile parse ettim ama olmadı ya çok uzun bekliyordu ya da direk satıcı yok çıktısını veriyordu.
-
-
-
 <br>
+
 # Lxml
 <h4>- - - Uspolo- - - </h4>
 Lxml kullanarak Uspolo sitesindeki tişörtlerin adını,fiyatını,url'sini excel dosyasına kaydeden python kodu.Öncelikle bir ana urlmiz var ve url içinde page parametresi sayfa sayfa gezinmek için paramktereyi +1 attrıdık eğer artık ürün yoksa yeni sayfa demekki o sayfaf yok aslında dur.scraping_products(products) adındaki methodumuzda her tişörtün linkini alır ana url'ye ekle xpath de sonuç hep liste olarak döner bir tane olsa bile o yüzden [0] kullanmamız lazım.Sonra da name,price ve url xpath ile scrape ettim ve excel'e kaydeder.<br>
